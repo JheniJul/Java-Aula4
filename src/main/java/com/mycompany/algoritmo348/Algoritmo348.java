@@ -21,7 +21,7 @@ public class Algoritmo348 {
             alunos.pr1[L]=Float.parseFloat(JOptionPane.showInputDialog("\nDigite 1ª nota: ")); 
             System.out.println("\n1° Nota: "+ alunos.pr1[L]);
             
-            alunos.pr2[L]=Float.parseFloat(JOptionPane.showInputDialog("\nDigite 1ª nota: ")); 
+            alunos.pr2[L]=Float.parseFloat(JOptionPane.showInputDialog("\nDigite 2ª nota: ")); 
             System.out.println("\n2° Nota: "+ alunos.pr2[L]);
             
             alunos.media[L] = (alunos.pr1[L] + alunos.pr2[L])/2;
