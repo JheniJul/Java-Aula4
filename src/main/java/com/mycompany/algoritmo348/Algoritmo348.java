@@ -3,7 +3,6 @@
  */
 
 package com.mycompany.algoritmo348;
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
