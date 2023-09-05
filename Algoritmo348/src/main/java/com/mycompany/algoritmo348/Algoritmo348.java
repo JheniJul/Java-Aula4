@@ -5,8 +5,7 @@
 package com.mycompany.algoritmo348;
 import javax.swing.JOptionPane;
 
-/**
- *
+/*
  * @author sonha
  */
 public class Algoritmo348 {
