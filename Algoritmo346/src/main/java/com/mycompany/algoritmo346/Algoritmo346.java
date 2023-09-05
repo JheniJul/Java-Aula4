@@ -1,16 +1,13 @@
 /* Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license */
 
 package com.mycompany.algoritmo346;
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /* * @author sonha */
 public class Algoritmo346 {
     public static void main(String[] args) {
         int op, x, tam;
-        String frase;
-        Scanner leia = new Scanner(System.in);
-        
+        String frase;        
         
         do{ 
             System.out.println("\nMenu");
@@ -31,9 +28,9 @@ public class Algoritmo346 {
                 if(op == 2){
                     frase = JOptionPane.showInputDialog("Digite uma frase:");
                     System.out.println("\nFrase: " +frase);
-                    System.out.println("\nOs dois primeiros caracteres: " +frase.substring(0, 2));
+                    System.out.println("Os dois primeiros caracteres: " +frase.substring(0, 2));
                     tam = frase.length() - 2;
-                    System.out.println("\nOs dois ultimos caracteres: " +frase.substring(tam));
+                    System.out.println("Os dois ultimos caracteres: " +frase.substring(tam));
                 }else{
                     if(op == 3){
                         frase= JOptionPane.showInputDialog("Digite uma frase:");
